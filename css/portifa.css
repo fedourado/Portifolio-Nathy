@@ -1,0 +1,637 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* header*/
+
+header {
+    display: flex;
+    padding: 80px 180px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #181818;
+}
+
+body {
+    margin: 0;
+}
+
+
+#logo-site {
+    justify-content: left;
+    margin-left: 180px;
+    transition: transform 0.5s ease;
+}
+
+#logo-site:hover {
+    transform: scale(1.2);
+}
+
+.nav-bar {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 170px;
+    display: flex;
+}
+
+.li {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 12px;
+}
+
+
+.li-ld {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 12px;
+    font-size: 1.3rem;
+    transition: color 0.5s ease;
+}
+
+.li-ld:hover {
+    color: #EF5454;
+}
+
+
+/*body*/
+
+.banner-container-pai {
+    background-color: #1c1c1c;
+}
+
+.body-filho {
+    background-color: #181818;
+    padding: 100px 360px;
+    justify-content: space-between;
+    color: #262626;
+
+}
+
+#title-nathy {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    margin-bottom: 12px;
+    line-height: 90px;
+    color: white;
+    
+}
+
+#text-nathy {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    word-spacing: 2px;
+    margin-top: 10px;
+    color: white;
+}
+
+#title-nathy-bold {
+    font-weight: 500;
+    color: #EF5454;
+}
+
+
+/*banners*/
+
+.title-banner {
+    color: white;
+    font-weight: 400; 
+    font-size: 42px;
+    padding: 160px 376px;
+}
+
+.banner-container-um {
+    display: flex;
+    padding: 20px 200px;
+    margin-left: 180px;
+}
+
+#h1-banner {
+    color: #EF5454; 
+    font-weight: 300; 
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+a, #h2-banner {
+    margin-top: 20px;
+    margin-bottom: 14px;
+    font-weight: 500; 
+    font-size: 48px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+a, #h2-banner:hover {
+    color: #EF5454
+}
+
+a, #h2-banner-um, #h2-banner-dois, #h2-banner-tres, #h2-banner-quatro {
+    margin-top: 20px;
+    margin-bottom: 14px;
+    font-weight: 500; 
+    font-size: 48px;
+    color: white;
+    line-height: 60px;
+}
+
+a, #h2-banner-um:hover {
+    color: #EF5454
+}
+
+#p-banner {
+    margin-top: 14px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #B7B7B7;
+}
+
+#img-banner-um {
+    flex: 1;
+    position: relative;
+    width: auto;
+    height: auto;
+    max-width: 600px;
+    max-height: 600px;
+    padding: 0px 80px;
+    bottom: 120px;
+    transition: transform 1.0s ease;
+    
+}
+
+#img-banner-um:hover {
+    transform: scale(1.1);
+}
+
+
+.banner-container-dois {
+    display: flex;
+    padding: 60px 200px;
+    margin-left: 290px;
+}
+
+#img-banner-dois {
+    flex: 1;
+    position: relative;
+    width: auto;
+    height: auto;
+    max-width: 600px;
+    max-height: 600px;
+    padding: 0px 0px 80px;
+    bottom: 170px;
+    right: 160px;
+    transition: transform 1.0s ease;
+}
+
+#img-banner-dois:hover {
+    transform: scale(1.1);
+}
+
+
+.banner-container-tres {
+    display: flex;
+    padding: 20px 200px;
+    margin-left: 180px;
+}
+
+#img-banner-tres {
+    flex: 1;
+    position: relative;
+    width: auto;
+    height: auto;
+    max-width: 600px;
+    max-height: 600px;
+    padding: 0px 80px;
+    bottom: 170px;
+    left: 30px;
+    transition: transform 1.0s ease;
+}
+
+#img-banner-tres:hover {
+    transform: scale(1.1);
+}
+
+
+.banner-container-quatro {
+    display: flex;
+    padding: 60px 200px;
+    margin-left: 290px;
+}
+
+#img-banner-quatro {
+    flex: 1;
+    position: relative;
+    width: auto;
+    height: auto;
+    max-width: 600px;
+    max-height: 600px;
+    padding: 0px 0px 80px;
+    bottom: 100px;
+    right: 140px;
+    transition: transform 1.0s ease;
+}
+
+#img-banner-quatro:hover {
+    transform: scale(1.1);
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #181818;
+    padding: 150px 180px;
+    margin: 0;
+}
+
+.footer-text {
+    left: 12%;
+}
+
+#footer-h1 {
+    margin-bottom: 2px;
+    line-height: 60px;
+    font-weight: 600;
+    font-size: 56px;
+}
+
+#p-footer {
+    position: relative;
+    top: 36px;
+    font-size: 16px;
+}
+
+.footer-text {   
+    position: relative; 
+    bottom: 20px;
+}
+
+#e-mail {
+    text-decoration: none;
+    margin-top: 0px;
+    font-weight: 300;
+    font-size: 54px;
+}
+
+
+#topo-button {
+   position: fixed;
+   right: 20px;
+   bottom: 20px;
+   font-size: 1.6rem;
+   opacity: 0; /* Começa escondido */
+   transition: opacity 0.5s ease-in-out;
+}
+
+
+@media screen and (max-width: 1680px) {
+
+    * {
+        font-family: "Poppins", sans-serif;
+    }
+
+    /**HEADER**/
+
+    header {
+        padding: 40px 100px;
+        justify-content: space-between;
+    }
+
+    /**BODY-APRESENTATION**/
+
+    .body-filho {
+        margin-left: 0;
+        justify-content: space-between;
+        padding: 40px 300px;
+    }
+    
+    #title-nathy {
+        font-size: 72px;
+        word-spacing: 0px;
+        margin-bottom: 2px;
+        
+    }
+    
+    #text-nathy {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-size: 40px;
+        word-spacing: 0px;
+        margin-top: 20px;
+    }
+    
+   /**BODY-CASES**/
+
+        /**TTILE-PROJECTS**/
+
+        .title-banner {
+            color: white;
+            font-weight: 400; 
+            font-size: 42px;
+            padding: 160px 256px;
+        }
+        
+
+        /**BANNER ONE**/
+
+        .banner-container-um {
+            display: flex;
+            padding: 20px 130px;
+            margin-left: 120px;
+        }
+
+        #img-banner-um {
+            padding: 0px 60px;
+            bottom: 120px;
+            
+        }
+
+        /**BANNER TWO**/
+
+        .banner-container-dois {
+            display: flex;
+            padding: 20px 110px;
+            margin-left: 240px;
+        }
+        
+        #img-banner-dois {
+            padding: 0px 0px 0px;
+            bottom: 170px;
+            right: 160px;
+        }
+
+        /**BANNER THREE**/
+
+        .banner-container-tres {
+            padding: 20px 80px;
+            margin-left: 130px;
+        }
+        
+        #img-banner-tres {
+            padding: 0px 80px;
+            bottom: 170px;
+            left: 30px;
+        }
+        
+        /**BANNER FOUR**/
+
+        .banner-container-quatro {
+            padding: 20px 110px;
+            margin-left: 250px;
+        }
+        
+        #img-banner-quatro {
+            flex: 1;
+            position: relative;
+            width: auto;
+            height: auto;
+            max-width: 600px;
+            max-height: 600px;
+            padding: 0px 0px 0px;
+            bottom: 100px;
+            right: 140px;
+        }
+
+        /**FOOTER**/
+
+        #p-footer {
+            font-size: 10px;
+        }
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    * {
+        font-family: "Poppins", sans-serif;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    header {
+        padding: 60px 0px;
+    }
+    
+    .nav-bar {
+        padding: 0 0 0 260px;
+
+    }
+
+    #logo-site {
+        padding: 0 130px;
+        margin-left: -56px;
+    }
+
+
+    /**BODY-APRESENTATION**/
+
+    .body-filho {
+        padding: 40px 10%;
+    }
+
+    #title-nathy {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 56px;
+    }
+
+    #text-nathy {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-size: 24px;
+        word-spacing: 2px;
+    }
+    
+    /**BODY-CASES**/
+
+        /**TTILE-PROJECTS**/
+
+        .title-banner {
+            font-weight: 400; 
+            font-size: 26px;
+            padding: 140px 10%;
+        }
+    
+        /**BANNER ONE**/
+
+        .banner-container-um {
+            display: flex;
+            padding: 20px 0 0 0;
+            margin-left: 10%;
+        }
+
+        #img-banner-um {
+            bottom: 40px;
+            max-width: 300px;
+            max-height: 300px;
+            padding: 0px 10px;
+            
+        }
+
+        .banner-container-um, #h1-banner {
+            font-weight: 300; 
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+   
+        #h2-banner-um, #h2-banner-dois, #h2-banner-tres, #h2-banner-quatro {
+            margin-top: 0px;
+            margin-bottom: 10px;
+            font-weight: 400; 
+            font-size: 24px;
+            line-height: 40px;
+            
+        }
+        
+        .banner-container-um, #p-banner {
+            margin-top: 14px;
+            font-weight: 300;
+            font-size: 14px;
+            white-space: nowrap;
+            line-height: 26px;
+        }
+        
+        /**BANNER TWO**/
+
+        .banner-container-dois {
+            display: flex;
+            padding: 20px 0 0 0;
+            margin-left: 10%;
+        }
+        
+        #img-banner-dois {
+            max-width: 300px;
+            max-height: 300px;
+            padding: 0px 10px;
+            bottom: 50px;
+            margin-left: 40%;
+        }
+             
+        .banner-container-dois, #h1-banner {
+            font-weight: 300; 
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+   
+        .banner-dois-textos {
+            margin-right: 10%;
+            padding: 0 26px;
+            
+        }
+        
+        .banner-container-dois, #p-banner {
+            margin-top: 14px;
+            font-weight: 300;
+            font-size: 14px;
+            white-space: nowrap;
+            line-height: 26px;
+        }
+        
+        /**BANNER THREE**/
+        .banner-container-tres {
+            display: flex;
+            padding: 20px 0 0 0;
+            margin-left: 10%;
+        }
+        
+        #img-banner-tres {
+            max-width: 300px;
+            max-height: 300px;
+            padding: 0px 10px;
+            bottom: 40px;
+        }
+             
+        .banner-container-tres, #h1-banner {
+            font-weight: 300; 
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        
+        .banner-container-tres, #p-banner {
+            margin-top: 14px;
+            font-weight: 300;
+            font-size: 14px;
+            white-space: nowrap;
+            line-height: 26px;
+        }
+
+        /**BANNER FOUR**/
+        
+        .banner-container-quatro {
+            display: flex;
+            padding: 20px 0 0 0;
+            margin-left: 10%;
+        }
+        
+        #img-banner-quatro {
+            max-width: 300px;
+            max-height: 300px;
+            padding: 0px 10px;
+            bottom: 50px;
+            margin-left: 40%;
+        }
+             
+        .banner-container-quatro, #h1-banner {
+            font-weight: 300; 
+            font-size: 16px;
+        }
+   
+        .banner-quatro-textos {
+            margin-right: 10%;
+            padding: 0 26px;
+            
+        }
+        
+        .banner-container-quatro, #p-banner {
+            margin-top: 14px;
+            font-weight: 300;
+            font-size: 14px;
+            white-space: nowrap;
+            line-height: 26px;
+        }
+
+        /**FOOTER**/
+
+        footer {
+            padding: 100px 0px;
+        }
+
+
+        #footer-h1 {
+            margin-bottom: 2px;
+            line-height: 20px;
+            font-weight: 600;
+            font-size: 26px;
+        }
+        
+        #e-mail {
+            text-decoration: none;
+            margin-top: 0px;
+            font-weight: 300;
+            font-size: 24px;
+        }
+        
+        #p-footer {
+            font-size: 10px;
+            position: relative;
+            top: 24px;
+            margin: 0;
+
+        }
+
+}
+
+
+
